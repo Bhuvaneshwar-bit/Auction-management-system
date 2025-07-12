@@ -1,74 +1,59 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# 🛒 Auction Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, fully client-side auction item manager built using **React.js**. This application allows users to add, view, filter, and delete auction items — categorized into sections like Electronics, Furniture, Antiques, etc.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Add new auction items with:
+  - Item Name
+  - Description
+  - Base Price
+  - Category
+- ✅ View all items in a responsive card layout
+- ✅ Filter items by category using a dropdown
+- ✅ Delete auction items
+- ✅ Show total item count per category
+- ✅ Validates base price (must be a positive number)
+- ✅ Clean and modern UI with gradient backgrounds
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Live Demo
 
-### `npm test`
+🔗 [Click here to view the live site](https://your-vercel-link.vercel.app)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**: React.js
+- **Styling**: CSS3 (custom), Flexbox, Grid
+- **State Management**: React Hooks (`useState`)
+- **Deployment**: [Vercel](https://vercel.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📁 Folder Structure
 
-### `npm run eject`
+auction-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── AddItemForm.js
+│ │ ├── ItemCatalog.js
+│ │ ├── CategoryFilter.js
+│ │ └── CategorySummary.js
+│ ├── App.js
+│ ├── styles.css
+│ └── index.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧑‍💻 How to Run Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# Auction-management-system
->>>>>>> bbd5b5d17832d8440429fdba9ca839a3d0413cc0
+```bash
+git clone https://github.com/Bhuvaneshwar-bit/Auction-management-system.git
+cd Auction-management-system
+npm install
+npm start
+Then open http://localhost:3000 in your browser.
